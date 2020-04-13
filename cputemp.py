@@ -16,8 +16,7 @@ cpu = CPUTemperature()
 print(cpu.temperature)
 
 if cpu.temperature >= 70:
-    print('HOT HOT HOT')
-    print('\nSending Email...\n')
+    print('HOT HOT HOT\nSending Email...\n')
     port = 465  # For SSL
     password = "SENDER EMAIL PASSWORD!"
     sender_email = "SENDER EMAIL"
